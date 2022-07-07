@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "my-module-playground",
+  "dependencies": {
+    "@pinia/nuxt": "^0.1.9",
+    "pinia": "^2.0.14"
+  }
+}

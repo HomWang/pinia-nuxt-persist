@@ -1,0 +1,47 @@
+{
+  "name": "pinia-nuxt-persist",
+  "version": "0.0.4",
+  "repository": "516310460/pinia-nuxt-persist",
+  "description": "It supports customer service sessionstorage, localstorage and service cookies, and can permanently store nuxtjs Pinia status data in customized storage",
+  "keywords": [
+    "nuxt",
+    "nuxt3",
+    "pinia",
+    "persist",
+    "pinia-nuxt-persist"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/module.mjs",
+      "require": "./dist/module.cjs"
+    }
+  },
+  "main": "./dist/module.cjs",
+  "types": "./dist/types.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepack": "nuxt-module-build",
+    "dev": "nuxi dev playground",
+    "dev:docs": "(cd docs && yarn dev)",
+    "dev:build": "nuxi build playground",
+    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
+    "build:docs": "(cd docs && yarn build)"
+  },
+  "dependencies": {
+    "@nuxt/kit": "^3.0.0-rc.4",
+    "@pinia/nuxt": "^0.1.9",
+    "pinia": "^2.0.14"
+  },
+  "devDependencies": {
+    "@nuxt/module-builder": "latest",
+    "@nuxtjs/eslint-config-typescript": "latest",
+    "@types/js-cookie": "^3.0.2",
+    "eslint": "latest",
+    "js-cookie": "^3.0.1",
+    "nuxt": "^3.0.0-rc.4"
+  }
+}
