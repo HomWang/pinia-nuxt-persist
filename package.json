@@ -2,7 +2,7 @@
   "name": "pinia-nuxt-persist",
   "version": "0.0.4",
   "repository": "516310460/pinia-nuxt-persist",
-  "description": "It supports customer service sessionstorage, localstorage and service cookies, and can permanently store nuxtjs Pinia status data in customized storage",
+  "description": "Pinia's nuxt3 sustainable storage plug-in",
   "keywords": [
     "nuxt",
     "nuxt3",
